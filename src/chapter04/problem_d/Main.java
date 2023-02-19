@@ -15,6 +15,7 @@ public class Main {
      * @param sizes 각 순환 수열의 길이(주기)
      * @return
      */
+    //
     public static long getGlobalPeriod(int n, long[] sizes) {
         long globalPeriod = MathUtil.getLCM(sizes);
         return globalPeriod;
